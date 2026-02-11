@@ -1,0 +1,20 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scripts/MainTheme.uss?fileID=7433441132597879392&amp;guid=e74b56d351668304195e8e784c0c0a4a&amp;type=3#MainTheme"/>
+    <ui:VisualElement name="menu-bar" style="flex-grow: 0; background-color: rgb(37, 37, 38); height: 60px; align-items: stretch; flex-direction: row; justify-content: center;">
+        <ui:Button text="Play" name="play-button" style="-unity-text-align: middle-center;"/>
+        <ui:Button text="Pause" name="pause-button"/>
+        <ui:Button text="Next" name="next-button"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="main-area" style="flex-grow: 1; flex-direction: row; align-items: stretch; justify-content: space-between; align-self: stretch;">
+        <ui:VisualElement name="ai-panel" style="flex-grow: 1; flex-direction: column; align-items: stretch; align-self: stretch;"/>
+        <ui:VisualElement name="scene-panel" style="flex-grow: 1; align-self: stretch; flex-direction: column;">
+            <ui:Image name="preview-image"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="graph-panel" style="flex-grow: 1; align-self: stretch; flex-direction: column-reverse;"/>
+    </ui:VisualElement>
+    <ui:VisualElement name="bottom-console" style="flex-grow: 1; -unity-background-image-tint-color: rgb(37, 37, 38); height: 120px;">
+        <ui:ScrollView>
+            <ui:Label text="Label" name="console-log" style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);"/>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

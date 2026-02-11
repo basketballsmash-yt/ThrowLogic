@@ -1,0 +1,79 @@
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "BuilderDocument",
+        "m_EditorClassIdentifier": "UnityEditor.UIBuilderModule:Unity.UI.Builder:BuilderDocument",
+        "m_SavedBuilderUxmlToThemeStyleSheetList": [],
+        "m_CurrentCanvasTheme": 4,
+        "m_CurrentCanvasThemeStyleSheetReference": {
+            "fileID": -4733365628477956816,
+            "guid": "99951fd4c6c39aa40ae1589f3e8e6d16",
+            "type": 3
+        },
+        "m_CodePreviewVisible": true,
+        "m_OpenUXMLFiles": [
+            {
+                "m_OpenUSSFiles": [
+                    {
+                        "m_StyleSheet": {
+                            "fileID": 7433441132597879392,
+                            "guid": "e74b56d351668304195e8e784c0c0a4a",
+                            "type": 3
+                        },
+                        "m_ContentHash": 438737931,
+                        "m_UssPreview": ".root {\r\n    flex-direction: column;\r\n    height: 100%;\r\n    background-color: rgb(30, 30, 30);\r\n}\r\n\r\n#menu-bar {\r\n    height: 40px;\r\n    background-color: rgb(37, 37, 38);\r\n}\r\n\r\n#main-area {\r\n    height: 600px;\r\n    flex-direction: row;\r\n}\r\n\r\n#ai-panel {\r\n    width: 300px;\r\n    background-color: rgb(37, 37, 38);\r\n}\r\n\r\n#scene-panel {\r\n    width: 1000px;\r\n    background-color: rgb(0, 51, 102);\r\n}\r\n\r\n#graph-panel {\r\n    width: 300px;\r\n    background-color: rgb(51, 0, 51);\r\n}\r\n\r\n#bottom-console {\r\n    height: 120px;\r\n    background-color: rgb(27, 27, 27);\r\n}\r\n",
+                        "m_OldPath": "Assets/Scripts/MainTheme.uss"
+                    }
+                ],
+                "m_OpenendVisualTreeAssetOldPath": "Assets/Scripts/MainLayout.uxml",
+                "m_UxmlPreview": "<ui:UXML xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:ui=\"UnityEngine.UIElements\" xmlns:uie=\"UnityEditor.UIElements\" noNamespaceSchemaLocation=\"../../../UIElementsSchema/UIElements.xsd\" editor-extension-mode=\"False\">\r\n    <Style src=\"project://database/Assets/Scripts/MainTheme.uss?fileID=7433441132597879392&amp;guid=e74b56d351668304195e8e784c0c0a4a&amp;type=3#MainTheme\"/>\r\n    <ui:VisualElement name=\"menu-bar\" style=\"flex-grow: 0; background-color: rgb(37, 37, 38); height: 60px; align-items: stretch; flex-direction: row; justify-content: center;\">\r\n        <ui:Button text=\"Play\" name=\"play-button\" style=\"-unity-text-align: middle-center;\"/>\r\n        <ui:Button text=\"Pause\" name=\"pause-button\"/>\r\n        <ui:Button text=\"Next\" name=\"next-button\"/>\r\n    </ui:VisualElement>\r\n    <ui:VisualElement name=\"main-area\" style=\"flex-grow: 1; flex-direction: row; align-items: stretch; justify-content: space-between; align-self: stretch;\">\r\n        <ui:VisualElement name=\"ai-panel\" style=\"flex-grow: 1; flex-direction: column; align-items: stretch; align-self: stretch;\"/>\r\n        <ui:VisualElement name=\"scene-panel\" style=\"flex-grow: 1; align-self: stretch; flex-direction: column;\">\r\n            <ui:Image name=\"preview-image\"/>\r\n        </ui:VisualElement>\r\n        <ui:VisualElement name=\"graph-panel\" style=\"flex-grow: 1; align-self: stretch; flex-direction: column-reverse;\"/>\r\n    </ui:VisualElement>\r\n    <ui:VisualElement name=\"bottom-console\" style=\"flex-grow: 1; -unity-background-image-tint-color: rgb(37, 37, 38); height: 120px;\">\r\n        <ui:ScrollView>\r\n            <ui:Label text=\"Label\" name=\"console-log\" style=\"background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);\"/>\r\n        </ui:ScrollView>\r\n    </ui:VisualElement>\r\n</ui:UXML>\r\n",
+                "m_ContentHash": -698400538,
+                "m_VisualTreeAssetRef": {
+                    "fileID": 9197481963319205126,
+                    "guid": "efab7baf18cf9b6439138873597810ce",
+                    "type": 3
+                },
+                "m_TemplateAssetId": 0,
+                "m_TemplateAssetIndex": -1,
+                "m_ActiveStyleSheet": {
+                    "fileID": 7433441132597879392,
+                    "guid": "e74b56d351668304195e8e784c0c0a4a",
+                    "type": 3
+                },
+                "m_Settings": {
+                    "UxmlGuid": "efab7baf18cf9b6439138873597810ce",
+                    "UxmlPath": "Assets/Scripts/MainLayout.uxml",
+                    "CanvasX": 0,
+                    "CanvasY": 0,
+                    "CanvasWidth": 1980,
+                    "CanvasHeight": 1080,
+                    "MatchGameView": false,
+                    "ZoomScale": 0.550000011920929,
+                    "PanOffset": {
+                        "x": -517.4396362304688,
+                        "y": 125.0599365234375
+                    },
+                    "ColorModeBackgroundOpacity": 1.0,
+                    "ImageModeCanvasBackgroundOpacity": 1.0,
+                    "CameraModeCanvasBackgroundOpacity": 1.0,
+                    "EnableCanvasBackground": true,
+                    "CanvasBackgroundMode": 0,
+                    "CanvasBackgroundColor": {
+                        "r": 0.11764705926179886,
+                        "g": 0.11764705926179886,
+                        "b": 0.11764705926179886,
+                        "a": 1.0
+                    },
+                    "CanvasBackgroundImage": {
+                        "instanceID": 0
+                    },
+                    "CanvasBackgroundImageScaleMode": 1,
+                    "CanvasBackgroundCameraName": ""
+                },
+                "m_OpenSubDocumentParentIndex": -1
+            }
+        ],
+        "m_ActiveOpenUXMLFileIndex": 0
+    }
+}

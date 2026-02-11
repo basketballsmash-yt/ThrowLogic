@@ -1,0 +1,41 @@
+.root {
+    flex-direction: column;
+    height: 100%;
+    background-color: #1e1e1e;
+}
+
+/* 上バー */
+#menu-bar {
+    height: 40px;
+    background-color: #252526;
+}
+
+/* 中央エリア */
+#main-area {
+    height: 600px;        /* ← 固定 */
+    flex-direction: row;
+}
+
+/* 左 */
+#ai-panel {
+    width: 300px;
+    background-color: #252526;
+}
+
+/* 中央 */
+#scene-panel {
+    width: 1000px;        /* ← 完全固定 */
+    background-color: #003366;
+}
+
+/* 右 */
+#graph-panel {
+    width: 300px;
+    background-color: #330033;
+}
+
+/* 下 */
+#bottom-console {
+    height: 120px;
+    background-color: #1b1b1b;
+}
